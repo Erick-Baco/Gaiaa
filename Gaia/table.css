@@ -1,0 +1,37 @@
+
+.navegador div a{
+    margin: 0px 20px 0px 20px;
+}
+
+.homecontainer{
+    display: flex;
+    
+}
+
+#portadaCH{
+    width: 300px;
+}
+
+.home{
+    width: 300px;
+}
+
+.divh2 a{
+    margin: 0px 30px 0px 30px;
+}
+
+.divh2 p{
+    margin: 0px 30px 0px 30px;
+}
+
+.container{
+    width: 300px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
