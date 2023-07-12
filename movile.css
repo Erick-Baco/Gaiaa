@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Maven Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navegador{
+    background-color: peachpuff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    border-bottom: rgba(233, 150, 122, 0.669) solid;
+    justify-content: space-around;
+    top: 0;
+}
+
+.navegador div{
+    border: darksalmon solid 1px;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 0.5rem;
+}
+
+.navegador div:active{
+    background-color: darksalmon;
+}
+
+.navegador div:hover:nth-child(1){
+    background-color: peachpuff;
+}
+
+.navegador {
+    background-color: peachpuff;
+}
+
+.navegador div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.navegador div:nth-child(1){
+    border: peachpuff;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+h1 {
+    font-family: 'Smooch', cursive;
+    color: darksalmon;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.divh2h{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    scroll-margin-top: 10ex;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Smooch', cursive;
+    width: 100%;
+    justify-content: center;
+}
+
+.divh2h div{
+    background-color: peachpuff;
+    border: darksalmon solid 1px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+.home{
+    background-image: url(./img/portadas/fondo2.webp);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: darksalmon solid 1px;
+    font-size: 1.5rem;
+}
+
+#portadaCH{
+    width: 0px;
+    border-radius: 5px;
+    border: darksalmon solid 1px;
+}
+
+.divh2{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    scroll-margin-top: 10ex;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Smooch', cursive;
+    width: 100%;
+    justify-content: center;
+}
+
+.main .divh2 div{
+    background-color: peachpuff;
+    border: darksalmon solid 1px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    background: white;
+    border: darksalmon solid 1px;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.container .card:hover {
+    height: 500px;
+}
+
+
+
+.container .card .img-box {
+    position: absolute;
+    top: 20px;
+    width: 275px;
+    height: 220px;
+    background: darksalmon;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 150px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card:hover .content {
+    top: 100px;
+    height: 450px;
+}
+
+.container .card .content h2 {
+    font-family: 'Smooch', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    color: salmon;
+}
+
+.container .card .content div {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 5px 25px;
+    text-decoration: none;
+    background: peachpuff;
+    border: darksalmon solid 1px;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+.container .card .content p {
+    margin-top: 70px;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.container .card .content a:hover {
+    opacity: 0.8;
+}
+
+footer{
+    background-color: peachpuff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+footer div:nth-child(1){
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+footer div:nth-child(2){
+    margin-left: 20px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li:nth-child(1)::before {
+    content: "";
+    display: inline-block;
+    width: 16px; /* Ajusta el ancho de la imagen */
+    height: 16px; /* Ajusta la altura de la imagen */
+    background-image: url(./img/logos/fb.jpeg);
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    margin-right: 5px; /* Añade un espacio a la derecha para separar el decorador del texto */
+}
+footer ul li:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    width: 16px; /* Ajusta el ancho de la imagen */
+    height: 16px; /* Ajusta la altura de la imagen */
+    background-image: url(./img/logos/ig.jpeg);
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    margin-right: 5px; /* Añade un espacio a la derecha para separar el decorador del texto */
+}
+footer ul li:nth-child(3)::before {
+    content: "";
+    display: inline-block;
+    width: 16px; /* Ajusta el ancho de la imagen */
+    height: 16px; /* Ajusta la altura de la imagen */
+    background-image: url(./img/logos/whats.jpeg);
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    margin-right: 5px; /* Añade un espacio a la derecha para separar el decorador del texto */
+}
+
+a{
+    text-decoration: nones;
+}
